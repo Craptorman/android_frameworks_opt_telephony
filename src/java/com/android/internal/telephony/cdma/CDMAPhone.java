@@ -138,8 +138,7 @@ public class CDMAPhone extends PhoneBase {
     Registrant mPostDialHandler;
 
     static String PROPERTY_CDMA_HOME_OPERATOR_NUMERIC = "ro.cdma.home.operator.numeric";
-    //public String PROPERTY_CDMA_HOME_OPERATOR_NUMERIC = "ro.cdma.home.operator.numeric";
-
+    
     // Constructors
     public CDMAPhone(Context context, CommandsInterface ci, PhoneNotifier notifier) {
         super("CDMA", notifier, context, ci, false);
